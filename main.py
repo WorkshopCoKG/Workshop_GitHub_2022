@@ -1,5 +1,8 @@
+import random
+
 print("This is a new beginning.")
-#input:
+
+#numberfeature
 #output: array with numbers between 32 and 255
 def numberfeature():
     m = 32
@@ -8,5 +11,11 @@ def numberfeature():
     for i in range (m,n+1):
         num.append(i)
     return num
-
 print(numberfeature())
+
+#random numbers
+print(random.randint(0,9))
+def zufallszahl():
+    return(random.randint(32,255))
+print(zufallszahl())
+
